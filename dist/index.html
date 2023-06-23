@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="relative container mx-auto p-6">
+      <!-- flex container -->
+      <div class="flex items-center justify-between">
+        <!-- logo -->
+        <div class="pt-2">
+          <img src="/img/logo.svg" alt="" srcset="" />
+        </div>
+
+        <!-- menu -->
+        <div class="hidden md:flex gap-6"> 
+            <!-- md is the breakpoint, it will be hidden after md -->
+          <a href="#" class="hover:text-gray-500 transition-colors ease-in delay-75">Home</a>
+          <a href="#" class="hover:text-gray-500 transition-colors ease-in delay-75">Product</a>
+          <a href="#" class="hover:text-gray-500 transition-colors ease-in delay-75">About us</a>
+          <a href="#" class="hover:text-gray-500 transition-colors ease-in delay-75">Contact</a>
+        </div>
+
+        <!-- button -->
+        <a href="#" class="px-6 py-2 bg-teal-600 text-white align-middle rounded-full hidden md:block transition-colors ease-in hover:bg-teal-400 hover:bg-transparent hover:border">
+            Get Started</a>
+      </div>
+    </div>
+  </body>
+</html>
